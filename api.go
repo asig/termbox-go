@@ -242,6 +242,11 @@ func SetCursor(x, y int) {
 	}
 }
 
+// Returns the position of the cursor.
+func GetCursor() (x, y int) {
+	return cursor_x, cursor_y
+}
+
 // The shortcut for SetCursor(-1, -1).
 func HideCursor() {
 	SetCursor(cursor_hidden, cursor_hidden)
