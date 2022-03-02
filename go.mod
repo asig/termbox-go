@@ -1,6 +1,6 @@
-module github.com/nsf/termbox-go
+module github.com/asig/termbox-go
 
-go 1.15
+go 1.17
 
 require (
 	github.com/mattn/go-runewidth v0.0.12
